@@ -21,8 +21,6 @@ export default function SignupScreen({ navigation }) {
       <Text>Password:</Text>
       <TextInput value={password} onChangeText={setPassword} secureTextEntry />
       <Button title="Sign Up" onPress={handleSignup} />
-      <Button title="Login" onPress={() => navigation.navigate('Login')} />
     </View>
   );
 }
-
